@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opoku Ware official website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="index.html"></a><img src="./assets/school logo.png">
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">COURSE</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>THE SCHOOL</h1>
+            <p>The land of innovative students highly endowed with<br></br>
+               intelligence ready to face the future,as the slogan says "AKATAKYIE"<br></br>
+               thus,the great warrior.</p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    
+    </section>
+
+    <!-------- Course ------>
+
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>GENERAL SCIENCE<br></br>GENERAL ARTS<br></br>
+        BUSINESS<br></br>VISUAL ARTS</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>GENERAL SCIENCE</h3>
+                <p>General Science entails a lot including elective subjects such as Physics,Elective Maths,
+                   Biology,Chemistry,I.C.T,etc.The core subjects as suggested by the GES are English,Intergrated Science,
+                   Core Mathematics and Social Studies.We give you the opportunity to select your preference in either 
+                   Biology or I.C.T </p>
+        </div>
+        <div class="course-col">
+            <h3>GENERAL ARTS</h3>
+            <p>For General Arts,it's related subjects are many and probably the course with many subject.
+                The core subjects are English,Core Mathematics,Social Studies and Government.The elective subjects
+                are Economics,Geography,History,Elective Mathematics,Literature in English,French,etc.You are permitted to select your 
+                choice of electives.</p>
+         </div>
+         <div class="course-col">
+             <h3>BUSINESS</h3>
+             <p>Having dreams of stepping into the business domain in the future can be met with our available subjects
+                   such as Accounting,Costing,Business Management,Economics,etc.We allow you to choose your preference in the electives.</p>
+         </div>
+         <div class="course-col">
+             <h3>VISUAL ARTS</h3>
+             <p>Subjects such as Graphic Design,G.K.A, and many more.You can select your preference in the electives.
+                       The core subjects also are Core Maths,Integrated science,English and Social Studies.</p>
+         </div>
+
+    </section>
+
+    <!------- campus ------>
+    <section class="campus">
+        <h1>Our Campus</h1>
+        <p>Tour the serene and nice environment with many suitable facilities to 
+           better the lives of our students.
+        </p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="./assets/campus1.jpg">
+                <div class="layer">
+                    <h3>FATHER BURGES</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="./assets/campus2.jpg">
+                <div class="layer">
+                    <h3>JOHANNESBURG BLOCK</h3>
+                </div>
+            </div>    <div class="campus-col">
+                <img src="./assets/Statue.jpg">
+                <div class="layer">
+                    <h3>NANA OPOKU WARE I</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----- Facilities ---->
+
+    <section class="facilities">
+        <h1>Facilities</h1>
+        <p>A whole range of ultra modern facilities such as toilet,Science laboraties
+           Visual Arts studio and many are available to faciltate teaching and learning.</p>
+
+           <div class="row">
+            <div class="facilities-col">
+                <img src="./assets/toilet facility.jpg">
+                <h3>TOILET FACILITY</h3>
+                <p>The well-furnished toilet facility contains 35-seater toilet and 10 bathrooms
+                   too help improve sanitation and hygiene in the school.
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="./assets/novotel.jpg">
+                <h3>SPORTS COMPLEX</h3>
+                <p>We can boast of sports facilities as well.The shool has a fine pitch,basketball court,volleyball court and many more
+                   to assist students who take much delight in sports.
+                </p>
+            </div> <div class="facilities-col">
+                <img src="./assets/dining hall.jpg">
+                <h3>DINING HALL</h3>
+                <p>A hungry man,they say, is an angry man.Therefore we see to it that our students are being fed with the 
+                  best foods to enable their stay on campus.</p>
+            </div>
+           </div>
+    </section>
+    
+    <!-- --- Call To Action -------->
+
+    <section class="cta">
+        <h1>Enroll for our various courses from the comfort of your home</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+
+
+    <!-- --- Footer -------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>'The School' aims to provide quality and accessible education for its students.<br></br>
+            The school is noted for its past and current excellence in the WASSCE and other 
+            educational competitions.</p>
+            <div class="icons">
+                <img src="./assets/facebook.png">
+                <img src="./assets/instagram.png">
+                <img src="./assets/twitter.png">
+                <img src="./assets/linkedin.png">
+            </div>
+            <p>Made by <img src="./assets/heart.png">the AKATAKYIE fraternity.</p>
+    </section>
+
+
+
+    <!-------- JavaScript for Toggle Menu------->
+    <script>
+
+        var navLinks = document.getElementByID("navLinks");
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px";
+        }
+    </script>
+    
+</body>
+</html>

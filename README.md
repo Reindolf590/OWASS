@@ -1,1 +1,1 @@
-# OWASS
+# Opoku-Ware-School
